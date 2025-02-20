@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-color: #7600de;
+background-image: linear-gradient(90deg, #7600de 0%, #FC00FF 100%);
+
+}
+.maincontainer{
+    background-image: url(/imgs/gradient-purple-color-background-modern-wave-abstract-designs_343694-2361.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+#link-nav{
+    color: white;
+
+}
+#link-nav:hover{
+    color: rgb(78, 75, 75);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.main{
+    background: none;
+    
+}
+.text{
+    text-align: center;
+    padding: 10px;
+}
+.main1{
+    margin-top: 50px;
+    padding: 20px;
+}
+.text h5 {
+    font-size: 20px;
+    font-weight: 800;    
+    color: white;
+
+}
+.text h1 { 
+    font-weight: 800;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text p {
+    font-size: 16px;
+    color: white;
+
+}
+#accBtn {
+    margin-top: 30px;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    background: rgba(72, 43, 231, 1);
+}
+#accBtn:hover {
+    background: rgba(72, 43, 231, 0.8);
+}
+.maincontainer2{
+    margin-top: 30px;
+    background-image: url(/imgs/dark-water-surface-video.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+}
+.main3{
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+   
+}
+.maincontainer3{
+    background: rgb(32, 15, 80);
+}
+.innerdiv{
+    display: flex;
+    border: 1px solid black;
+    padding: 20px;
+    color: white;
+    /* align-items: center; */
+}
+.maincontainer3 h1 {
+    margin-left: 30px;
+    color: white;
+    font-weight: 600;
+    padding: 30px 30px;
+}
+
+.main4{
+    padding: 20px;
+}
+.text1 h1 {
+    font-weight: 600;    
+    color: white;
+}
+.text1 p {
+ 
+    color: white;
+}
+.img{
+    border-radius: 35px;
+}
+.imgdiv{
+    color: white;
+    margin-top: 50px;
+}
+.icons{
+    display: flex;
+    color: white;
+    gap: 20px;
+}
+.mainimg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.secimg{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 200px;
+}
+.main5{
+    padding: 20px;
+    color: white;
+}
+.icon1{
+    display: flex;
+    gap: 20px;
+
+}
+.text3{
+    display: flex;
+    justify-content: space-between;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+}
