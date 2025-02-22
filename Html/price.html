@@ -3,15 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pricing Page</title>
     <link rel="stylesheet" href="/Style/price.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        
+    </style>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-custom px-4 mt-1">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item"><a class="nav-link" id="linkss" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" id="linkss" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" id="linkss" href="price.html">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" id="linkss" href="feature.html">Features</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    
+    <div class="container main">
+        <h1>Plans & Pricing</h1>
+        <p class="mt-3">Startup Framework is free forever — you only pay for <br> custom domain hosting or to export your site.</p>
+    </div>
 
+    <div class="pricing-cards">
+        <div class="card-container">
+            <!-- Starter Plan -->
+            <div class="card">
+                <p class="plans">Starter</p>
+                <h1 class="price">$0</h1>
+                <div class="features">
+                    <p><span>2 GB of space</span></p>
+                    <p><span>14 days of backups</span></p>
+                    <p><span>Social integrations</span></p>
+                    <p><span>Client billing</span></p>
+                    <p class="disabled-feature">Remote access</p>
+                    <p class="disabled-feature">Custom domain</p>
+                    <p class="disabled-feature">24 hours support</p>
+                    <p class="disabled-feature">Admin tools</p>
+                    <p class="disabled-feature">Collaboration tools</p>
+                    <p class="disabled-feature">User management</p>
+                </div>
+            </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+            <!-- Professional Plan -->
+            <div class="card recommended">
+                <p class="plans">Professional</p>
+                <h1 class="price">$29</h1>
+                <div class="features">
+                    <p><span>10 GB of space</span></p>
+                    <p><span>30 days of backups</span></p>
+                    <p><span>Advanced integrations</span></p>
+                    <p><span>Client billing</span></p>
+                    <p><span>Remote access</span></p>
+                    <p><span>Custom domain</span></p>
+                    <p class="disabled-feature">24 hours support</p>
+                    <p class="disabled-feature">Admin tools</p>
+                    <p class="disabled-feature">Collaboration tools</p>
+                    <p class="disabled-feature">User management</p>
+                </div>
+            </div>
+
+            <!-- Enterprise Plan -->
+            <div class="card">
+                <p class="plans">Enterprise</p>
+                <h1 class="price">$99</h1>
+                <div class="features">
+                    <p><span>Unlimited space</span></p>
+                    <p><span>90 days of backups</span></p>
+                    <p><span>Premium integrations</span></p>
+                    <p><span>Client billing</span></p>
+                    <p><span>Remote access</span></p>
+                    <p><span>Custom domain</span></p>
+                    <p><span>24 hours support</span></p>
+                    <p><span>Admin tools</span></p>
+                    <p><span>Collaboration tools</span></p>
+                    <p><span>User management</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

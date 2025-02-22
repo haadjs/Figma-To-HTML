@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-custom {
+    /* background-color: #f8f9fa; */
+}
+
+#linkss {
+    color: #333;
+    font-weight: 500;
+}
+
+#linkss:hover {
+    color: #828283;
+}
+
+.main {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.card {
+    padding: 30px;
+    border-radius: 15px;
+    border: 2px solid #dee2e6;
+    margin: 20px 0;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.plans {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.price {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 20px 0;
+    color: #007bff;
+}
+
+.features {
+    margin-top: 30px;
+}
+
+.features p {
+    font-size: 1rem;
+    margin: 12px 0;
+    color: #666;
+    line-height: 1.6;
+}
+
+.features span {
+    font-weight: 600;
+    color: #333;
+}
+
+/* New CSS for multiple cards */
+.pricing-cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.recommended {
+    border-color: #007bff;
+    background-color: #f8f9ff;
+}
+
+.disabled-feature {
+    color: #adb5bd !important;
+    text-decoration: line-through;
+}
